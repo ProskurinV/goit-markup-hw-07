@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/mailn.scss"
+    ],
+    "names": [],
+    "file": "mailn.min.css"
+}
