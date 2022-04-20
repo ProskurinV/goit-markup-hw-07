@@ -1,27 +1,26 @@
-.logo {
-  color: var(--accent-color);
+.header__logo {
+  color: $accent-color;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
 
-.main-nav .logo {
+.header__main-nav .header__logo {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.logo-two {
+.header__logo-two {
   color: #000000;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
-.logo-three {
-  color: var(--bg-color);
+.header__ogo-three {
+  color: $bg-color;
 }
-
-.main-nav .text {
+.header__main-nav .header__text {
   line-height: 1.38;
 }
-.footer .text {
+.footer__text {
   line-height: 1.17;
 }
