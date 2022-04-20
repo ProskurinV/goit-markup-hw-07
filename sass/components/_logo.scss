@@ -1,0 +1,27 @@
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+}
+
+.main-nav .logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo-two {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+}
+.logo-three {
+  color: var(--bg-color);
+}
+
+.main-nav .text {
+  line-height: 1.38;
+}
+.footer .text {
+  line-height: 1.17;
+}
