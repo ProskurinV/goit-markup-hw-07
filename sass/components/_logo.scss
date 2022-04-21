@@ -1,3 +1,4 @@
+// HEADER LOGO
 .header__logo {
   color: $accent-color;
   font-family: 'Raleway', sans-serif;
@@ -15,12 +16,14 @@
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
-.header__ogo-three {
+.header_logo-three {
   color: $bg-color;
 }
 .header__main-nav .header__text {
   line-height: 1.38;
 }
+
+// FOOTER LOGO
 .footer__text {
   line-height: 1.17;
 }
