@@ -193,6 +193,12 @@ body {
   line-height: 1.38;
 }
 
+.footer__logo {
+  color: #2196f3;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+}
+
 .footer__text {
   line-height: 1.17;
 }
