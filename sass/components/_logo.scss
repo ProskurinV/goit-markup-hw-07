@@ -5,7 +5,7 @@
   font-size: 26px;
 }
 
-.header__main-nav .header__logo {
+.header__logo {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -16,9 +16,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
-.header_logo-three {
-  color: $bg-color;
-}
+
 .header__main-nav .header__text {
   line-height: 1.38;
 }
@@ -26,4 +24,8 @@
 // FOOTER LOGO
 .footer__text {
   line-height: 1.17;
+}
+
+.footer__logo-three {
+  color: $bg-color;
 }

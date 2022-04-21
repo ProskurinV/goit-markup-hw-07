@@ -129,7 +129,12 @@ body {
   margin-left: 50px;
 }
 
-.header__header-contact-list a {
+.header__item-link {
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__contact-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,6 +149,11 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header a:hover,
+.header a:focus {
+  color: #2196f3;
+}
+
 .header__mail:hover .header__icon-mail,
 .header__mail:focus .header__icon-mail,
 .header__phone:hover .header__icon-phone,
@@ -151,24 +161,10 @@ body {
   fill: #2196f3;
 }
 
-.header__mail:hover,
-.header__mail:focus,
-.header__phone:hover,
-.header__phone:focus {
-  color: #2196f3;
-}
-
-.header__header-contact-list .header__phone:hover,
-.header__header-contact-list .header__phone:focus {
-  fill: #2196f3;
-}
-
 .header__icon-mail,
 .header__icon-phone {
   margin-right: 10px;
   fill: currentColor;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header {
@@ -181,7 +177,7 @@ body {
   font-size: 26px;
 }
 
-.header__main-nav .header__logo {
+.header__logo {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -193,16 +189,16 @@ body {
   font-size: 26px;
 }
 
-.header_logo-three {
-  color: #ffffff;
-}
-
 .header__main-nav .header__text {
   line-height: 1.38;
 }
 
 .footer__text {
   line-height: 1.17;
+}
+
+.footer__logo-three {
+  color: #ffffff;
 }
 
 .hero {
