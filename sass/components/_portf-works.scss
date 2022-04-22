@@ -37,7 +37,7 @@
 }
 
 .pictures__item {
-  flex-basis: calc(100% / 3 - $picMargin);
+  flex-basis: calc(100% / 3 - #{$picMargin});
   margin-left: $picMargin;
   margin-top: $picMargin;
 
