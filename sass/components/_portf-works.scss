@@ -2,8 +2,8 @@
   display: flex;
   flex-wrap: wrap;
 
-  margin-left: calc(-1 * $pictures-margin);
-  margin-top: calc(-1 * $pictures-margin);
+  margin-left: calc(-1 * 30px);
+  margin-top: calc(-1 * 30px);
 }
 
 .pictures__card-thumb {
@@ -36,7 +36,7 @@
   color: $bg-color;
 }
 
-.pictures .pictures__item {
+.pictures__item {
   flex-basis: calc(100% / 3 - $pictures-margin);
   margin-left: $pictures-margin;
   margin-top: $pictures-margin;
@@ -44,12 +44,12 @@
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.pictures .pictures__item:hover,
-.pictures .pictures__item:focus {
+.pictures__item:hover,
+.pictures__item:focus {
   box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-.pictures .pictures__item:hover .pictures__overlay {
+.pictures__item:hover .pictures__overlay {
   transform: translateY(0);
 }
 
@@ -61,7 +61,7 @@
   padding: 20px 24px;
 }
 
-.picture__title {
+.pictures__title {
   color: $title-text-color;
   font-size: 18px;
   font-weight: 700;
@@ -70,7 +70,7 @@
   margin-bottom: 4px;
 }
 
-.picture__description {
+.pictures__description {
   color: $text-color;
   font-size: 16px;
   font-weight: 400;
