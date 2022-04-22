@@ -20,34 +20,37 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <div class="header-nav header">
-          <nav class="main-nav">
-            <a href="./index.html" class="logo text"
-              >Web<span class="logo-two text">Studio</span></a
+        <div class="header__header-nav">
+          <nav class="header__main-nav">
+            <a href="./index.html" class="header__logo header__text"
+              >Web<span class="header__logo-two header__text">Studio</span></a
             >
-            <ul class="site-nav">
-              <li class="item"><a href="./index.html" class="item-link">Студия</a></li>
-              <li class="item">
-                <a href="./portfolio.html" class="current item-link">Портфолио</a>
+            <ul class="header__site-nav">
+              <li class="header__item">
+                <a href="./index.html" class="header__item-link">Студия</a>
               </li>
-              <li class="item"><a href="" class="item-link">Контакты</a></li>
+              <li class="header__item">
+                <a href="./portfolio.html" class="current header__item-link">Портфолио</a>
+              </li>
+              <li class="header__item"><a href="" class="header__item-link">Контакты</a></li>
             </ul>
           </nav>
-          <ul class="header-contact-list">
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="mail">
-                <svg class="icon-mail">
+          <ul class="header__header-contact-list">
+            <li class="header__item">
+              <a href="mailto:info@devstudio.com" class="header__contact-link"
+                ><svg class="header__icon-mail" width="16" height="12">
                   <use href="./images/icons.svg#icon-mail"></use>
                 </svg>
+
                 info@devstudio.com</a
               >
             </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="phone">
-                <svg class="icon-phone">
-                  <use href="./images/icons.svg#icon-phone" width="10" height="16"></use>
+            <li class="header__item">
+              <a href="tel:+380961111111" class="header__contact-link"
+                ><svg class="header__icon-phone" width="10" height="16">
+                  <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
                 +38 096 111 11 11</a
               >
@@ -59,39 +62,49 @@
     <main>
       <section class="works">
         <div class="container">
-          <h1 class="hidden">скрытый заголовок Н1</h1>
-          <ul class="btn-text">
-            <li class="item"><button type="button" class="secondary-btn btn-all">Все</button></li>
-            <li class="item"><button type="button" class="secondary-btn">Веб-сайты</button></li>
-            <li class="item"><button type="button" class="secondary-btn">Приложения</button></li>
-            <li class="item"><button type="button" class="secondary-btn">Дизайн</button></li>
-            <li class="item"><button type="button" class="secondary-btn">Маркетинг</button></li>
+          <h1 class="visually-hidden">скрытый заголовок Н1</h1>
+          <ul class="works__btn-text">
+            <li class="works__item">
+              <button type="button" class="works__secondary-btn works__btn-all">Все</button>
+            </li>
+            <li class="works__item">
+              <button type="button" class="works__secondary-btn">Веб-сайты</button>
+            </li>
+            <li class="works__item">
+              <button type="button" class="works__secondary-btn">Приложения</button>
+            </li>
+            <li class="works__item">
+              <button type="button" class="works__secondary-btn">Дизайн</button>
+            </li>
+            <li class="works__item">
+              <button type="button" class="works__secondary-btn">Маркетинг</button>
+            </li>
           </ul>
           <ul class="pictures">
-            <li class="item border">
-              <article class="card">
-                <div class="card-thumb">
+            <li class="pictures__item pictures__border">
+              <article class="pictures__card">
+                <div class="pictures__card-thumb">
                   <img src="./images-portfolio/img1.jpg" alt="набор фото" />
-                  <div class="overlay">
-                    <p class="overlay-txt">
+                  <div class="pictures__overlay">
+                    <p class="pictures__overlay-txt">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения компании
                       или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="card-content">
-                  <h2 class="picture-title">Технокряк</h2>
-                  <p class="picture-description">Веб-сайт</p>
+                <div class="pictures__card-content">
+                  <h2 class="picture__title">Технокряк</h2>
+                  <p class="picture__description">Веб-сайт</p>
                 </div>
               </article>
             </li>
-            <li class="item border">
-              <article class="card">
-                <div class="card-thumb">
+            <li class="pictures__item pictures__border">
+              <article class="pictures__card">
+                <div class="pictures__card-thumb">
                   <img src="./images-portfolio/img2.jpg" alt="набор фото" />
-                  <div class="overlay">
-                    <p class="overlay-txt">
+                  <div class="pictures__overlay">
+                    <p class="pictures__overlay-txt">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения компании
                       или частном лице.
