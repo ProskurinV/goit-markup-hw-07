@@ -5,11 +5,11 @@
 
 .features__list {
   display: flex;
-  margin-left: calc(-1 * $picMargin);
+  margin-left: calc(-1 * #{$picMargin});
 }
 
 .features__item {
-  flex-basis: calc(100% / 4 - $picMargin);
+  flex-basis: calc(100% / 4 - #{$picMargin});
   margin-left: $picMargin;
 }
 
@@ -51,7 +51,7 @@
 } */
 
 .features__title {
-  font-weight: 700;
+  $font-bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;

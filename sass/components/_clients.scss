@@ -9,7 +9,7 @@
 
 .clients__regular-clients {
   font-size: 36px;
-  font-weight: 700;
+  $font-bold;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
@@ -18,18 +18,18 @@
 
 .clients__our-clients {
   display: flex;
-  margin-left: calc(-1 * $picMargin);
+  margin-left: calc(-1 * #{$picMargin});
 }
 
 .clients__item {
-  flex-basis: calc(100% / 6 - $picMargin);
+  flex-basis: calc(100% / 6 - #{$picMargin});
   margin-left: $picMargin;
 
   width: 170px;
   height: 92px;
 
   border: 1px solid #afb1b8;
-  border-radius: 4px;
+  $borRadius;
 
   display: flex;
   align-items: center;

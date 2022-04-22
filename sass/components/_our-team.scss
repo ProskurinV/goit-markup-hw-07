@@ -17,10 +17,10 @@
 }
 .our-team__foto {
   display: flex;
-  margin-left: calc(-1 * $picMargin);
+  margin-left: calc(-1 * #{$picMargin});
 }
 .our-team__item {
-  flex-basis: calc(100% / 4 - $picMargin);
+  flex-basis: calc(100% / 4 - #{$picMargin});
   margin-left: $picMargin;
   background-color: $bg-color;
 

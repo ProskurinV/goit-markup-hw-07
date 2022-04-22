@@ -1,6 +1,6 @@
 // GENERAL BUTTON
 
-.btn {
+%btn {
   color: $bg-color;
   background-color: $accent-color;
 
@@ -9,25 +9,16 @@
   border: none;
 
   font-size: 16px;
-  font-weight: 700;
-
-  border-radius: 4px;
+  $font-bold;
+  $borRadius;
 
   letter-spacing: 0.06em;
 }
 
 // HERO BUTTON
 .hero-btn {
-  // color: $bg-color;
-  // background-color: $accent-color;
-  // cursor: pointer;
-  // border: none;
+  @extend %btn;
   line-height: 1.8;
-  // letter-spacing: 0.06em;
-  // text-align: center;
-  // font-size: 16px;
-  // font-weight: 700;
-  // border-radius: 4px;
   padding: 10px 32px;
   display: block;
   margin: auto;
@@ -42,17 +33,9 @@
 
 // FOOTER BUTTON
 .footer__btn-send {
-  // color: $bg-color;
-  // background-color: $accent-color;
-  // cursor: pointer;
-  // border: none;
-  line-height: 1.87;
-  // letter-spacing: 0.06em;
-  // align-items: center;
+  @extend %btn;
 
-  // font-size: 16px;
-  // font-weight: 700;
-  // border-radius: 4px;
+  line-height: 1.87;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
@@ -69,14 +52,11 @@
 
 .works__secondary-btn,
 .works__btn-all {
+  @extend %btn;
   background-color: $btn-bg-color;
   color: $title-text-color;
-  // cursor: pointer;
   line-height: 1.62;
-  // font-size: 16px;
   font-weight: 500;
-  // border: none;
-  // border-radius: 4px;
   padding: 6px 22px;
   display: block;
   min-width: 73px;
@@ -88,6 +68,7 @@
 }
 
 .works__btn-all {
+  @extend %btn;
   background-color: $accent-color;
   color: $bg-color;
 }

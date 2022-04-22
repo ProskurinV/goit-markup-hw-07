@@ -237,7 +237,8 @@ body {
   margin: 0 0 30px 0;
 }
 
-.btn {
+.hero-btn, .footer__btn-send, .works__secondary-btn,
+.works__btn-all {
   color: #ffffff;
   background-color: #2196f3;
   text-align: center;
@@ -322,12 +323,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: calc(-1 * $picMargin);
+  margin-left: calc(-1 * 30px);
 }
 
 .features__item {
-  -ms-flex-preferred-size: calc(100% / 4 - $picMargin);
-      flex-basis: calc(100% / 4 - $picMargin);
+  -ms-flex-preferred-size: calc(100% / 4 - 30px);
+      flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
 
@@ -475,12 +476,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: calc(-1 * $picMargin);
+  margin-left: calc(-1 * 30px);
 }
 
 .our-team__item {
-  -ms-flex-preferred-size: calc(100% / 4 - $picMargin);
-      flex-basis: calc(100% / 4 - $picMargin);
+  -ms-flex-preferred-size: calc(100% / 4 - 30px);
+      flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
@@ -569,12 +570,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: calc(-1 * $picMargin);
+  margin-left: calc(-1 * 30px);
 }
 
 .clients__item {
-  -ms-flex-preferred-size: calc(100% / 6 - $picMargin);
-      flex-basis: calc(100% / 6 - $picMargin);
+  -ms-flex-preferred-size: calc(100% / 6 - 30px);
+      flex-basis: calc(100% / 6 - 30px);
   margin-left: 30px;
   width: 170px;
   height: 92px;
@@ -1075,8 +1076,8 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: calc(-1 * $picMargin);
-  margin-top: calc(-1 * $picMargin);
+  margin-left: calc(-1 * 30px);
+  margin-top: calc(-1 * 30px);
 }
 
 .pictures__card-thumb {
