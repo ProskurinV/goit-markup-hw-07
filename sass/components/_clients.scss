@@ -18,12 +18,12 @@
 
 .clients__our-clients {
   display: flex;
-  margin-left: calc(-1 * $pictures-margin);
+  margin-left: calc(-1 * $picMargin);
 }
 
 .clients__item {
-  flex-basis: calc(100% / 6 - $pictures-margin);
-  margin-left: $pictures-margin;
+  flex-basis: calc(100% / 6 - $picMargin);
+  margin-left: $picMargin;
 
   width: 170px;
   height: 92px;

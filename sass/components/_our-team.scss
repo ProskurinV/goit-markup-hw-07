@@ -17,11 +17,11 @@
 }
 .our-team__foto {
   display: flex;
-  margin-left: calc(-1 * $pictures-margin);
+  margin-left: calc(-1 * $picMargin);
 }
 .our-team__item {
-  flex-basis: calc(100% / 4 - $pictures-margin);
-  margin-left: $pictures-margin;
+  flex-basis: calc(100% / 4 - $picMargin);
+  margin-left: $picMargin;
   background-color: $bg-color;
 
   border-radius: 0px 0px 4px 4px;
