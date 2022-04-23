@@ -39,12 +39,6 @@ img {
   max-width: 100%;
 }
 
-.hidden {
-  display: none;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .hero-btn, .footer__btn-send, .works__secondary-btn,
 .works__btn-all {
   color: #ffffff;
