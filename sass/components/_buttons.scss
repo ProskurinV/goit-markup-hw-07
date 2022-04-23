@@ -1,20 +1,5 @@
 // GENERAL BUTTON
 
-%btn {
-  color: $bg-color;
-  background-color: $accent-color;
-
-  text-align: center;
-  cursor: pointer;
-  border: none;
-
-  font-size: 16px;
-  font-weight: 700;
-  border-radius: 4px;
-
-  letter-spacing: 0.06em;
-}
-
 // HERO BUTTON
 .hero-btn {
   @extend %btn;
@@ -24,13 +9,12 @@
   margin: auto;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: $primary-btn-hover-color;
+  &:hover,
+  &:focus {
+    background-color: $primary-btn-hover-color;
+  }
 }
-
 // FOOTER BUTTON
 .footer__btn-send {
   @extend %btn;
@@ -65,21 +49,21 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: $bg-color;
+    box-shadow: 0px 2px 2px 0px #0000001f;
+    box-shadow: 0px 1px 2px 0px #00000014;
+    box-shadow: 0px 3px 1px 0px #0000001a;
+  }
 }
 
 .works__btn-all {
   @extend %btn;
   background-color: $accent-color;
   color: $bg-color;
-}
-
-.works__secondary-btn:hover,
-.works__secondary-btn:focus,
-.works__btn-all:hover,
-.works__btn-all:focus {
-  background-color: $accent-color;
-  color: $bg-color;
-  box-shadow: 0px 2px 2px 0px #0000001f;
-  box-shadow: 0px 1px 2px 0px #00000014;
-  box-shadow: 0px 3px 1px 0px #0000001a;
 }
