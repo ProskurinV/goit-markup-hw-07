@@ -1046,7 +1046,7 @@ body {
 .modal__checkbox:checked + .modal__checkbox-label {
   border-color: transparent;
   background-color: #2196f3;
-  background-image: url(/./images/iconcheck.svg);
+  background-image: url(./images/iconcheck.svg);
   background-size: contain;
   background-origin: border-box;
 }
