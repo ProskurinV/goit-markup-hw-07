@@ -41,6 +41,10 @@
 }
 
 .modal__btn-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   position: absolute;
   background-color: $bg-color;
 
@@ -49,8 +53,6 @@
 
   right: 8px;
   top: 8px;
-
-  padding: 6px;
 
   border: none;
   border-radius: 50%;
@@ -63,8 +65,8 @@
 .modal__icon-close {
   fill: black;
 
-  width: 11px;
-  height: 11px;
+  width: 18px;
+  height: 18px;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -138,8 +140,10 @@
 
 .modal__form-textarea {
   display: inline-block;
-  padding: 12px 16px;
 
+  resize: none;
+
+  padding: 12px 16px;
   margin-bottom: 20px;
 
   height: 120px;
@@ -156,7 +160,8 @@
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__form-textarea:focus-within {
+.modal__form-textarea:focus-within,
+.modal__form-textarea:hover {
   border: 1px solid $accent-color;
   outline: none;
 }
@@ -182,11 +187,13 @@
 }
 
 .modal__form-field:focus-within .modal__icon,
+.modal__form-field:hover .modal__icon,
 .modal__form-input:not(:placeholder-shown) + .modal__icon {
   fill: $accent-color;
 }
 
 .modal__form-input:focus-within,
+.modal__form-input:hover,
 .modal__form-input:not(:placeholder-shown) {
   border: 1px solid $accent-color;
   outline: none;
